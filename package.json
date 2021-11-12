@@ -1,7 +1,7 @@
 {
-    "name": "js-boilerplate",
+    "name": "node-mysql",
     "version": "1.0.0",
-    "description": "node js project boilerplate",
+    "description": "node js with mysql",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
@@ -18,5 +18,9 @@
         "eslint-plugin-prettier": "^4.0.0",
         "prettier": "^2.4.1",
         "supervisor": "^0.12.0"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "sync-mysql": "^3.0.1"
     }
 }
